@@ -78,7 +78,3 @@ a {
   gap: 20px;
   margin: 50px;
 }
-
-.conteudo {
-  grid-column: 2 / -1;
-}
