@@ -1,0 +1,23 @@
+@import "./header.css";
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100px;
+  display: block;
+}
