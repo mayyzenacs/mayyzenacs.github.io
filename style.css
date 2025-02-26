@@ -55,3 +55,19 @@ img {
   line-height: 1.5;
   align-content: center;
 }
+
+.projetos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.subtitulo {
+  font-size: 120px;
+  word-break: break-word;
+  text-transform: uppercase;
+  justify-self: right;
+  line-height: 1;
+  max-width: 255px;
+  letter-spacing: 4px;
+}
