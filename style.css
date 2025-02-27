@@ -3,7 +3,7 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 0px;
-  align-items: center;
+  justify-self: center;
 }
 
 h1,
@@ -25,9 +25,8 @@ img {
 
 .introducao {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
   margin: 20px;
-  justify-items: center;
   max-width: 1200px;
 }
 
@@ -53,21 +52,26 @@ img {
 
 .introducao p {
   line-height: 1.5;
-  align-content: center;
 }
 
 .projetos {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: center;
+  justify-content: center;
 }
 
 .subtitulo {
   font-size: 120px;
   word-break: break-word;
   text-transform: uppercase;
-  justify-self: right;
+  justify-self: center;
   line-height: 1;
   max-width: 255px;
   letter-spacing: 4px;
+  padding: 50px;
+}
+
+.projetos-texto {
+  font-size: 30px;
+  line-height: 1.33;
 }
