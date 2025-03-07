@@ -81,10 +81,47 @@ img {
   line-height: 1.33;
 }
 
-.projetos-titulo {
-  font-size: 30px;
+.projeto-titulo {
+  font-size: 25px;
 }
 
-.projeto_1 {
-  font-size: 25px;
+.projeto-ano {
+  font-size: 20px;
+}
+
+.projeto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #f5f5f5;
+  position: relative;
+}
+
+.projeto::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#6718fa, #4000b8);
+  position: absolute;
+  top: 20px;
+}
+
+.projeto-ano {
+  position: absolute;
+  top: 20px;
+  left: -100px;
+}
+
+.projeto_p {
+  font-size: 20px;
+}
+
+.ferramentas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-content: start;
+  border-radius: 3px;
 }
