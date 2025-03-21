@@ -1,0 +1,24 @@
+.rodape-container {
+  background-color: black;
+  display: grid;
+}
+
+.rodape {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px;
+  align-items: center;
+}
+
+.rodape-conteudo {
+  align-content: center;
+}
+
+.rodape p,
+h3 {
+  text-align: center;
+}
+
+.rodape a {
+  text-decoration: none;
+}
