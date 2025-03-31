@@ -1,6 +1,6 @@
 @import "./header.css";
-@import "/formacao.css";
-@import "/footer.css";
+@import "./formacao.css";
+@import "./footer.css";
 
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -48,7 +48,7 @@ img {
   display: block;
   width: 120px;
   height: 100px;
-  background: url(detalhe.png) no-repeat center;
+  background: url(./detalhe.png) no-repeat center;
   position: absolute;
   top: -15px;
   left: -60px;
